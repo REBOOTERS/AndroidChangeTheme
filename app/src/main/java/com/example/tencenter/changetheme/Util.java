@@ -27,8 +27,6 @@ public class Util {
      */
     public static void onActivityCreateSetTheme(Activity activity) {
         switch (sTheme) {
-            default:
-                break;
             case Constants.THEME_DARK:
                 activity.setTheme(R.style.CustomThemeDark);
                 break;
@@ -40,6 +38,9 @@ public class Util {
                 break;
             case Constants.THEME_LIGHT:
                 activity.setTheme(R.style.CustomThemeLight);
+                break;
+            default:
+                break;
 
         }
     }

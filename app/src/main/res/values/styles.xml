@@ -1,5 +1,6 @@
 <resources>
 
+    <!--日间模式主题-->
     <style name="CustomThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/light</item>
@@ -12,6 +13,8 @@
         <item name="pupwindowTheme">@style/AppTheme.PopupLight</item>
     </style>
 
+
+    <!--夜间模式主题-->
     <style name="CustomThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/dark_bg</item>
